@@ -1,0 +1,43 @@
+Name: Angelica Vargas
+Lab: 4
+Date: 2/11/2022
+Description: Outputs of lab 4 (debugging).
+
+1) Inspect the variable gcdInput1.
+
+Output: 
+(gdb) print gcdInput1
+$1 = 10
+
+Does this value match what you entered?
+Yes, it does match the value that I entered.
+
+2)
+Inspect the variable gcdInput2 as above.
+
+Output:
+(gdb) print gcdInput2
+$2 = 20
+
+Does this value match what you entered?
+Yes, this value does match the one I entered.
+
+3)
+Inspect the two parameters and verify they match the values entered.
+
+Output:
+(gdb) print inNum1
+$5 = 10
+(gdb) print inNum2
+$6 = 20
+
+inNum1 and inNum2 both match the values I entered.
+
+4)
+Step one more time and check the result
+print gcdVal (if still in the GCDCalculator function) or print gcdOutput (if in the main function)
+What is the value output?
+
+Output:
+(gdb) print gcdVal
+$7 = 10

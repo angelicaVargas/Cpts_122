@@ -1,0 +1,29 @@
+1. In the body of the function, return 0;
+Compile and run the code
+What is the output?
+
+PS C:\Users\varga\onedrive\desktop\cpts122_\lab2> g++ -o unittestdriver unittestdriver.cpp
+PS C:\Users\varga\onedrive\desktop\cpts122_\lab2> ./unittestdriver
+test squareFunc failed!
+
+
+2. Modify square so that it returns the square of the given parameter
+Compile and run the code
+What is the output?
+
+test squareFunc passed!
+
+
+3a. One of the problems with square is that a significantly large input may result in undesired output.
+Add a test to the testSquareFunc that calls square with an input of 47000. 47000 squared is 2209000000 
+(note that to enter this number as a literal, you will need to make it a long)
+Compile and run your code. Output:
+
+test squareFunc failed!
+
+
+3b. To combat this problem, we should check the input of square for numbers greater than 46340. 
+Since a square can never be negative, return a -1 from square if too large of an input is given.
+Modify your test to check for a return of -1 from square
+-1
+test squareFunc failed! 
